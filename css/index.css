@@ -1,0 +1,100 @@
+body {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: blanchedalmond;
+}
+
+section {
+  background-color: white;
+  width: 435px;
+  border-radius: 0 0 5% 5%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+
+img {
+  height: 325px;
+  margin-top: 20px;
+  width: auto;
+  border-radius: 5% 5% 0 0;
+  display: flex;
+  flex-shrink: 1;
+}
+
+.img-description {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  display: flex;
+  align-content: flex-start;
+}
+
+.title {
+  font-family: "Fraunces", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.description {
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.price {
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+  color: green;
+  display: flex;
+}
+
+.price span {
+  color: hsl(228, 12%, 48%);
+  padding-left: 50px;
+  font-size: 20px;
+  text-decoration-line: line-through;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fraunces", serif;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  padding: 20px 100px;
+  border-color: 2px solid green;
+  border-radius: 5%;
+  display: flex;
+}
+
+button:hover {
+  background-color: white;
+  color: green;
+  border-color: green;
+}
+
+.attribution {
+  margin-top: 40px;
+  font-size: 11px;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
